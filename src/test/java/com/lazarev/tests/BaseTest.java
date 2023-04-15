@@ -14,6 +14,6 @@ public class BaseTest {
         Configuration.browserSize = "1920x1080";
         Configuration.baseUrl = "https://demoqa.com";
         Configuration.browser = "FIREFOX";
-        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub/";
+        Configuration.remote = "http://localhost:4444/wd/hub/";
     }
 }

@@ -23,7 +23,7 @@ public class PracticeFormTest {
         $x("//tbody/tr[2]/td[2]").shouldHave(Condition.text("tutu@example.com"));
         $x("//tbody/tr[3]/td[2]").shouldHave(Condition.text("Female"));
         $x("//tbody/tr[4]/td[2]").shouldHave(Condition.text("8900000000"));
-        $x("//tbody/tr[5]/td[2]").shouldHave(Condition.text("10 March,2023"));
+        $x("//tbody/tr[5]/td[2]").shouldHave(Condition.text("10 April,2023"));
         $x("//tbody/tr[9]/td[2]").shouldHave(Condition.text("Russia"));
     }
 }
