@@ -11,6 +11,7 @@ public class PracticeFormTest {
 
     @BeforeEach
     void setUp() {
+        Configuration.pageLoadStrategy = "eager";
         Configuration.startMaximized = true;
     }
 
